@@ -4,10 +4,10 @@ import random
 import os
 
 #---------定型文----------
-CONSUMER_KEY = "1lYzTJS40nztdeG9n6Ppphc1C"
-CONSUMER_SECRET = "l7NJeCRTEENL1ZlO5mpvhIWsyl4I1URAg3102SsoN2se4Mmy4K"
-ACCESS_TOKEN = "830478227525169152-6lb9JVIc8W7fpp9Lj2L7nxGSrneiMLW"
-ACCESS_SECERET = "2EyRbAAJu5qRdidE95fSxxdNe0DrjfPJszB5sg8MGf5LO"
+CONSUMER_KEY = "取得したAPI key"
+CONSUMER_SECRET = "取得したAPI secret key"
+ACCESS_TOKEN = "取得したAccess token"
+ACCESS_SECERET = "取得したAccess token secret"
 
 #OAuth認証
 auth = tweepy.OAuthHandler(CONSUMER_KEY,CONSUMER_SECRET)
@@ -18,58 +18,7 @@ api = tweepy.API(auth, wait_on_rate_limit = True)
 #-----------------------
 
 #ツイートする文章
-#tweetList = ['テスト投稿','はじめまして\nこんにちわ','バーチャルYoutuberのアカリです']
-tweetList = [
-'''
-【定期ツイート】
-皆様はじめまして
-マインクラフトに解説系、マンガレビュー
-様々な動画を上げているリトルメイドVTuberです
-お気に入りの動画がきっと見つかります！
-
-↓チャンネル登録宜しくお願いします！↓
-http://bit.ly/2Yzpw6d
-
-#VTuber #Minecraft #LittleMaidMob
-https://twitter.com/Revenging_maid/status/1351010941916360706/photo/1
-''',
-'''
-【定期ツイート】
-マインクラフトに漫画レビュー、解説系
-様々な動画を上げているリトルメイドVTuberです
-お気に入りの動画がきっと見つかります！
-↓チャンネル登録宜しくお願いします↓
-http://bit.ly/2Yzpw6d
-
-#Vtuber好きさんと繋がりたい
-#Vtuber好きと繋がりたい
-https://twitter.com/Revenging_maid/status/1351010941916360706/photo/1
-''',
-'''
-【定期ツイート】
-マインクラフトに漫画レビュー、解説系
-様々な動画を上げているリトルメイドVTuberです
-お気に入りの動画がきっと見つかります！
-↓チャンネル登録宜しくお願いします↓
-http://bit.ly/2Yzpw6d
-
-#YouTuber好きな人と繋がりたい
-#Vtuber好きと繋がりたい
-https://twitter.com/Revenging_maid/status/1351010941916360706/photo/1
-''',
-'''
-【定期ツイート】
-マインクラフトにマンガレビュー、解説系
-様々な動画を上げてるリトルメイドVTuberです
-お気に入りの動画がきっと見つかります
-↓チャンネル登録宜しくお願いします↓
-http://bit.ly/2Yzpw6d
-
-#YouTuber好きな人と繋がりたい
-#Vtuber好きさんと繋がりたい
-https://twitter.com/Revenging_maid/status/1351010941916360706/photo/1
-''',
-]
+tweetList = ['テスト投稿','はじめまして\nこんにちわ','バーチャルYoutuberのアカリです']
 
 #前回ツイートした内容のIndexを取得する
 before_num = 0
