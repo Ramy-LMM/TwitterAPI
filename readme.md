@@ -23,5 +23,5 @@ pip install tweepy
 あたし達のYoutubeチャンネルとTwitterも是非覗いてみて、<br>
 チャンネル登録にフォローを宜しくお願いします:+1:(*･ω･)*_ _)ﾍﾟｺﾘ<br>
 Youtube：https://www.youtube.com/channel/UC3WV__xYnPxnxoHiQJ7t9Nw<br>
-Twitter:https://twitter.com/Revenging_maid/<br>
+Twitter：https://twitter.com/Revenging_maid/<br>
 ![lmm_fav](https://lh3.googleusercontent.com/a-/AOh14GgDg2sP4Au14mbeHnauFmchTtkDw7pGD-QrRGcPAg=s600-k-no-rp-mo)
